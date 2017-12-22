@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-alarm-dot-com",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "A alarm.com node for node-red",
   "author": "John Andrews",
   "dependencies": {
@@ -11,6 +11,7 @@
       "alarm.com": "alarm-dot-com.js"
     }
   },
+  "keywords": [ "node-red" ],
   "main": "alarm-dot-com.js",
   "devDependencies": {},
   "repository": {
