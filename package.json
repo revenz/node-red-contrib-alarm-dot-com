@@ -1,12 +1,25 @@
 {
-    "name": "node-red-contrib-alarm-dot-com",
-    "version":"0.0.1",
-    "dependencies": {
-        "sync-request": "latest"
-    },
-    "node-red": {
-        "nodes": {
-            "alarm.com": "alarm-dot-com.js"
-        }
+  "name": "node-red-contrib-alarm-dot-com",
+  "version": "0.0.1",
+  "description": "A alarm.com node for node-red",
+  "author": "John Andrews",
+  "dependencies": {
+    "sync-request": "latest"
+  },
+  "node-red": {
+    "nodes": {
+      "alarm.com": "alarm-dot-com.js"
     }
+  },
+  "main": "alarm-dot-com.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revenz/node-red-contrib-alarm-dot-com.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revenz/node-red-contrib-alarm-dot-com/issues"
+  },
+  "homepage": "https://github.com/revenz/node-red-contrib-alarm-dot-com#readme"
 }
